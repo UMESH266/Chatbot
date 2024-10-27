@@ -8,10 +8,6 @@ import speech_recognition as sr
 # Global 
 salutation = "Pleasure meeting you. Have a nice day!"
 
-# Chatbot configuration initiation
-HF_TOKEN = "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"
-avatar = AvatarSystem(HF_TOKEN)
-
 # Page title
 st.title("Welcome to Chatbot conversation")
 st.markdown("<h3 style='text-align: center;'>Hello, I am your chatbot assistant.</h1>", unsafe_allow_html=True)
@@ -19,6 +15,14 @@ st.markdown("<h3 style='text-align: center;'>Hello, I am your chatbot assistant.
 mode = option_menu("Choose mode of interaction", ["Text", "Voice", 'Exit'], 
     icons=['house', 'cloud-upload', "list-task"], 
     menu_icon="cast", default_index=0, orientation="horizontal")
+
+st.write("Add your Huggingface Access Token to use the chatbot.")
+
+if "HF_TOKEN" not in st.session_state:
+    st.session_state.HF_TOKEN = ''
+# Chatbot configuration initiation
+st.session_state.HF_TOKEN = st.text_input("Your Access Token: ")
+avatar = AvatarSystem(st.session_state.HF_TOKEN)
 
 def response(input_text):
     # Getting response and sentiment of response 
