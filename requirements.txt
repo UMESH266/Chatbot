@@ -1,0 +1,14 @@
+numpy
+pathlib
+torch
+transformers
+pillow
+opencv-python
+os-sys==2.1.4
+python-dotenv
+langchain_huggingface
+scipy
+gtts
+pygame
+SpeechRecognition
+pyttsx3 
