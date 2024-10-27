@@ -11,4 +11,6 @@ scipy
 gtts
 pygame
 SpeechRecognition
-pyttsx3 
+pyttsx3
+streamlit 
+streamlit-option-menu

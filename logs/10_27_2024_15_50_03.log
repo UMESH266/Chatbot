@@ -1,0 +1,43 @@
+[2024-10-27 15:50:06,298] 28 root - INFO - LLM model for text generation created.
+[2024-10-27 15:50:22,898] 21 root - INFO - Avatar system initiated.
+[2024-10-27 15:50:24,124] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-27 15:50:28,214] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 15:50:29,331] 24 root - INFO - Generated audio file loaded
+[2024-10-27 15:50:44,263] 33 root - INFO - Created audio file removed for entry of new file.
+[2024-10-27 15:50:44,931] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 15:50:44,931] 24 root - INFO - Generated audio file loaded
+[2024-10-27 15:50:47,973] 33 root - INFO - Created audio file removed for entry of new file.
+[2024-10-27 15:51:03,150] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-27 15:51:06,992] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 15:51:06,993] 24 root - INFO - Generated audio file loaded
+[2024-10-27 15:51:21,873] 33 root - INFO - Created audio file removed for entry of new file.
+[2024-10-27 15:51:22,547] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 15:51:22,549] 24 root - INFO - Generated audio file loaded
+[2024-10-27 15:51:25,593] 33 root - INFO - Created audio file removed for entry of new file.
+[2024-10-27 15:52:11,429] 28 root - INFO - LLM model for text generation created.
+[2024-10-27 15:52:15,394] 21 root - INFO - Avatar system initiated.
+[2024-10-27 15:52:15,739] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-27 15:52:19,432] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 15:52:19,434] 24 root - INFO - Generated audio file loaded
+[2024-10-27 15:52:34,323] 33 root - INFO - Created audio file removed for entry of new file.
+[2024-10-27 15:52:35,028] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 15:52:35,029] 24 root - INFO - Generated audio file loaded
+[2024-10-27 15:52:38,073] 33 root - INFO - Created audio file removed for entry of new file.
+[2024-10-27 15:52:46,665] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-27 15:52:50,111] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 15:52:50,112] 24 root - INFO - Generated audio file loaded
+[2024-10-27 15:52:50,851] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-27 15:53:05,004] 33 root - INFO - Created audio file removed for entry of new file.
+[2024-10-27 15:55:16,345] 28 root - INFO - LLM model for text generation created.
+[2024-10-27 15:55:18,440] 21 root - INFO - Avatar system initiated.
+[2024-10-27 15:55:18,733] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-27 15:55:23,083] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 15:55:23,084] 24 root - INFO - Generated audio file loaded
+[2024-10-27 15:55:37,982] 33 root - INFO - Created audio file removed for entry of new file.
+[2024-10-27 15:55:38,542] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 15:55:38,542] 24 root - INFO - Generated audio file loaded
+[2024-10-27 15:55:41,592] 33 root - INFO - Created audio file removed for entry of new file.
+[2024-10-27 15:55:48,962] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-27 15:55:52,085] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 15:55:52,087] 24 root - INFO - Generated audio file loaded
+[2024-10-27 15:56:06,983] 33 root - INFO - Created audio file removed for entry of new file.

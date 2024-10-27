@@ -1,0 +1,240 @@
+[2024-10-27 17:30:54,197] 28 root - INFO - LLM model for text generation created.
+[2024-10-27 17:31:04,995] 21 root - INFO - Avatar system initiated.
+[2024-10-27 17:31:05,549] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-27 17:31:53,439] 28 root - INFO - LLM model for text generation created.
+[2024-10-27 17:31:56,666] 21 root - INFO - Avatar system initiated.
+[2024-10-27 17:31:56,925] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-27 17:33:29,859] 28 root - INFO - LLM model for text generation created.
+[2024-10-27 17:33:32,121] 21 root - INFO - Avatar system initiated.
+[2024-10-27 17:33:32,369] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-27 17:35:24,971] 28 root - INFO - LLM model for text generation created.
+[2024-10-27 17:35:28,483] 21 root - INFO - Avatar system initiated.
+[2024-10-27 17:35:28,741] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-27 17:35:43,196] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-27 17:35:43,202] 31 root - INFO - Text response generated.
+[2024-10-27 17:35:44,157] 26 root - INFO - Text response generated.
+[2024-10-27 17:35:45,127] 30 root - INFO - Sentiment of response generated.
+[2024-10-27 17:35:45,136] 30 root - INFO - Response sentiment received.
+[2024-10-27 17:35:45,996] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 17:35:45,996] 34 root - INFO - Generated response saved as audio mp3 format.
+[2024-10-27 17:35:45,997] 79 root - INFO - Generated response stored in response.txt file in artifacts folder.
+[2024-10-27 17:35:45,998] 85 root - INFO - Stored text loaded.
+[2024-10-27 17:35:46,575] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 17:35:47,602] 24 root - INFO - Generated audio file loaded
+[2024-10-27 17:35:51,289] 33 root - INFO - Created audio file removed for entry of new file.
+[2024-10-27 17:36:07,633] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-27 17:36:08,264] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 17:36:08,265] 24 root - INFO - Generated audio file loaded
+[2024-10-27 17:36:11,310] 33 root - INFO - Created audio file removed for entry of new file.
+[2024-10-27 17:36:11,310] 31 root - INFO - Text response generated.
+[2024-10-27 17:36:12,166] 26 root - INFO - Text response generated.
+[2024-10-27 17:36:12,359] 30 root - INFO - Sentiment of response generated.
+[2024-10-27 17:36:12,359] 30 root - INFO - Response sentiment received.
+[2024-10-27 17:36:21,101] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 17:36:21,101] 34 root - INFO - Generated response saved as audio mp3 format.
+[2024-10-27 17:36:21,104] 79 root - INFO - Generated response stored in response.txt file in artifacts folder.
+[2024-10-27 17:36:21,105] 85 root - INFO - Stored text loaded.
+[2024-10-27 17:36:29,567] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 17:36:29,567] 24 root - INFO - Generated audio file loaded
+[2024-10-27 17:37:03,302] 33 root - INFO - Created audio file removed for entry of new file.
+[2024-10-27 17:40:07,060] 28 root - INFO - LLM model for text generation created.
+[2024-10-27 17:40:09,231] 21 root - INFO - Avatar system initiated.
+[2024-10-27 17:40:09,505] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-27 17:41:10,440] 28 root - INFO - LLM model for text generation created.
+[2024-10-27 17:41:12,185] 21 root - INFO - Avatar system initiated.
+[2024-10-27 17:41:12,433] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-27 17:41:19,606] 31 root - INFO - Text response generated.
+[2024-10-27 17:41:20,654] 26 root - INFO - Text response generated.
+[2024-10-27 17:41:20,774] 30 root - INFO - Sentiment of response generated.
+[2024-10-27 17:41:20,775] 30 root - INFO - Response sentiment received.
+[2024-10-27 17:41:25,063] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 17:41:25,064] 34 root - INFO - Generated response saved as audio mp3 format.
+[2024-10-27 17:41:25,066] 79 root - INFO - Generated response stored in response.txt file in artifacts folder.
+[2024-10-27 17:41:25,068] 85 root - INFO - Stored text loaded.
+[2024-10-27 17:41:25,733] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 17:41:25,734] 24 root - INFO - Generated audio file loaded
+[2024-10-27 17:41:29,408] 33 root - INFO - Created audio file removed for entry of new file.
+[2024-10-27 17:43:42,865] 28 root - INFO - LLM model for text generation created.
+[2024-10-27 17:43:45,435] 21 root - INFO - Avatar system initiated.
+[2024-10-27 17:43:45,695] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-27 17:44:05,069] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-27 17:44:12,526] 31 root - INFO - Text response generated.
+[2024-10-27 17:44:13,365] 26 root - INFO - Text response generated.
+[2024-10-27 17:44:13,477] 30 root - INFO - Sentiment of response generated.
+[2024-10-27 17:44:13,479] 30 root - INFO - Response sentiment received.
+[2024-10-27 17:44:14,018] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 17:44:14,019] 34 root - INFO - Generated response saved as audio mp3 format.
+[2024-10-27 17:44:14,020] 79 root - INFO - Generated response stored in response.txt file in artifacts folder.
+[2024-10-27 17:44:14,020] 85 root - INFO - Stored text loaded.
+[2024-10-27 17:44:14,729] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 17:44:14,730] 24 root - INFO - Generated audio file loaded
+[2024-10-27 17:44:18,406] 33 root - INFO - Created audio file removed for entry of new file.
+[2024-10-27 17:44:23,359] 31 root - INFO - Text response generated.
+[2024-10-27 17:44:23,629] 26 root - INFO - Text response generated.
+[2024-10-27 17:44:23,736] 30 root - INFO - Sentiment of response generated.
+[2024-10-27 17:44:23,736] 30 root - INFO - Response sentiment received.
+[2024-10-27 17:44:33,932] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 17:44:33,932] 34 root - INFO - Generated response saved as audio mp3 format.
+[2024-10-27 17:44:33,934] 79 root - INFO - Generated response stored in response.txt file in artifacts folder.
+[2024-10-27 17:44:33,934] 85 root - INFO - Stored text loaded.
+[2024-10-27 17:44:39,254] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 17:44:39,254] 24 root - INFO - Generated audio file loaded
+[2024-10-27 17:45:01,428] 33 root - INFO - Created audio file removed for entry of new file.
+[2024-10-27 17:45:06,639] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 17:45:06,640] 24 root - INFO - Generated audio file loaded
+[2024-10-27 17:45:09,688] 33 root - INFO - Created audio file removed for entry of new file.
+[2024-10-27 17:45:17,573] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-27 17:45:42,301] 28 root - INFO - LLM model for text generation created.
+[2024-10-27 17:45:46,786] 21 root - INFO - Avatar system initiated.
+[2024-10-27 17:45:47,452] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-27 17:45:48,237] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 17:45:48,237] 24 root - INFO - Generated audio file loaded
+[2024-10-27 17:45:51,289] 33 root - INFO - Created audio file removed for entry of new file.
+[2024-10-27 17:46:20,533] 28 root - INFO - LLM model for text generation created.
+[2024-10-27 17:46:22,399] 21 root - INFO - Avatar system initiated.
+[2024-10-27 17:46:22,679] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-27 17:46:30,386] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 17:46:30,390] 24 root - INFO - Generated audio file loaded
+[2024-10-27 17:46:45,271] 33 root - INFO - Created audio file removed for entry of new file.
+[2024-10-27 17:46:56,732] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-27 17:47:07,651] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 17:47:07,652] 24 root - INFO - Generated audio file loaded
+[2024-10-27 17:47:22,544] 33 root - INFO - Created audio file removed for entry of new file.
+[2024-10-27 17:47:22,549] 31 root - INFO - Text response generated.
+[2024-10-27 17:47:23,374] 26 root - INFO - Text response generated.
+[2024-10-27 17:47:23,500] 30 root - INFO - Sentiment of response generated.
+[2024-10-27 17:47:23,501] 30 root - INFO - Response sentiment received.
+[2024-10-27 17:47:24,019] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 17:47:24,019] 34 root - INFO - Generated response saved as audio mp3 format.
+[2024-10-27 17:47:24,022] 79 root - INFO - Generated response stored in response.txt file in artifacts folder.
+[2024-10-27 17:47:24,024] 85 root - INFO - Stored text loaded.
+[2024-10-27 17:47:24,612] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 17:47:24,612] 24 root - INFO - Generated audio file loaded
+[2024-10-27 17:47:28,284] 33 root - INFO - Created audio file removed for entry of new file.
+[2024-10-27 17:47:37,260] 28 root - INFO - LLM model for text generation created.
+[2024-10-27 17:47:39,164] 21 root - INFO - Avatar system initiated.
+[2024-10-27 17:47:39,406] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-27 17:47:42,166] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 17:47:42,167] 24 root - INFO - Generated audio file loaded
+[2024-10-27 17:47:45,214] 33 root - INFO - Created audio file removed for entry of new file.
+[2024-10-27 17:49:43,110] 28 root - INFO - LLM model for text generation created.
+[2024-10-27 17:49:44,900] 21 root - INFO - Avatar system initiated.
+[2024-10-27 17:49:45,190] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-27 17:52:11,413] 28 root - INFO - LLM model for text generation created.
+[2024-10-27 17:52:14,166] 21 root - INFO - Avatar system initiated.
+[2024-10-27 17:52:14,823] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-27 17:54:48,103] 28 root - INFO - LLM model for text generation created.
+[2024-10-27 17:54:51,264] 21 root - INFO - Avatar system initiated.
+[2024-10-27 17:54:51,522] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-27 17:55:44,317] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-27 17:55:49,759] 31 root - INFO - Text response generated.
+[2024-10-27 17:55:50,564] 26 root - INFO - Text response generated.
+[2024-10-27 17:55:51,338] 30 root - INFO - Sentiment of response generated.
+[2024-10-27 17:55:51,343] 30 root - INFO - Response sentiment received.
+[2024-10-27 17:55:54,230] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 17:55:54,231] 34 root - INFO - Generated response saved as audio mp3 format.
+[2024-10-27 17:55:54,232] 79 root - INFO - Generated response stored in response.txt file in artifacts folder.
+[2024-10-27 17:55:54,233] 85 root - INFO - Stored text loaded.
+[2024-10-27 17:55:54,763] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 17:55:54,768] 24 root - INFO - Generated audio file loaded
+[2024-10-27 17:55:58,445] 33 root - INFO - Created audio file removed for entry of new file.
+[2024-10-27 17:56:05,806] 31 root - INFO - Text response generated.
+[2024-10-27 17:56:07,685] 26 root - INFO - Text response generated.
+[2024-10-27 17:56:07,920] 30 root - INFO - Sentiment of response generated.
+[2024-10-27 17:56:07,921] 30 root - INFO - Response sentiment received.
+[2024-10-27 17:56:26,778] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 17:56:26,778] 34 root - INFO - Generated response saved as audio mp3 format.
+[2024-10-27 17:56:26,781] 79 root - INFO - Generated response stored in response.txt file in artifacts folder.
+[2024-10-27 17:56:26,782] 85 root - INFO - Stored text loaded.
+[2024-10-27 17:56:44,015] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 17:56:44,015] 24 root - INFO - Generated audio file loaded
+[2024-10-27 17:57:26,339] 33 root - INFO - Created audio file removed for entry of new file.
+[2024-10-27 18:02:35,621] 28 root - INFO - LLM model for text generation created.
+[2024-10-27 18:02:37,465] 21 root - INFO - Avatar system initiated.
+[2024-10-27 18:02:37,729] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-27 18:02:43,138] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-27 18:05:36,764] 28 root - INFO - LLM model for text generation created.
+[2024-10-27 18:05:39,480] 21 root - INFO - Avatar system initiated.
+[2024-10-27 18:05:39,733] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-27 18:05:42,310] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-27 18:05:49,233] 31 root - INFO - Text response generated.
+[2024-10-27 18:05:50,176] 26 root - INFO - Text response generated.
+[2024-10-27 18:05:51,111] 30 root - INFO - Sentiment of response generated.
+[2024-10-27 18:05:51,120] 30 root - INFO - Response sentiment received.
+[2024-10-27 18:05:52,030] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 18:05:52,031] 34 root - INFO - Generated response saved as audio mp3 format.
+[2024-10-27 18:05:52,039] 79 root - INFO - Generated response stored in response.txt file in artifacts folder.
+[2024-10-27 18:05:52,040] 85 root - INFO - Stored text loaded.
+[2024-10-27 18:05:52,669] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 18:05:52,672] 24 root - INFO - Generated audio file loaded
+[2024-10-27 18:05:56,345] 33 root - INFO - Created audio file removed for entry of new file.
+[2024-10-27 18:06:02,708] 31 root - INFO - Text response generated.
+[2024-10-27 18:06:05,173] 26 root - INFO - Text response generated.
+[2024-10-27 18:06:05,417] 30 root - INFO - Sentiment of response generated.
+[2024-10-27 18:06:05,418] 30 root - INFO - Response sentiment received.
+[2024-10-27 18:06:15,545] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 18:06:15,546] 34 root - INFO - Generated response saved as audio mp3 format.
+[2024-10-27 18:06:15,548] 79 root - INFO - Generated response stored in response.txt file in artifacts folder.
+[2024-10-27 18:06:15,548] 85 root - INFO - Stored text loaded.
+[2024-10-27 18:06:25,156] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 18:06:25,157] 24 root - INFO - Generated audio file loaded
+[2024-10-27 18:07:14,738] 33 root - INFO - Created audio file removed for entry of new file.
+[2024-10-27 18:09:05,116] 28 root - INFO - LLM model for text generation created.
+[2024-10-27 18:09:07,380] 21 root - INFO - Avatar system initiated.
+[2024-10-27 18:09:07,625] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-27 18:09:13,490] 31 root - INFO - Text response generated.
+[2024-10-27 18:09:14,325] 26 root - INFO - Text response generated.
+[2024-10-27 18:09:14,436] 30 root - INFO - Sentiment of response generated.
+[2024-10-27 18:09:14,437] 30 root - INFO - Response sentiment received.
+[2024-10-27 18:09:18,208] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 18:09:18,209] 34 root - INFO - Generated response saved as audio mp3 format.
+[2024-10-27 18:09:18,210] 79 root - INFO - Generated response stored in response.txt file in artifacts folder.
+[2024-10-27 18:09:18,211] 85 root - INFO - Stored text loaded.
+[2024-10-27 18:09:19,161] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 18:09:19,162] 24 root - INFO - Generated audio file loaded
+[2024-10-27 18:09:22,841] 33 root - INFO - Created audio file removed for entry of new file.
+[2024-10-27 18:09:29,950] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 18:09:29,951] 24 root - INFO - Generated audio file loaded
+[2024-10-27 18:09:33,001] 33 root - INFO - Created audio file removed for entry of new file.
+[2024-10-27 18:10:44,542] 28 root - INFO - LLM model for text generation created.
+[2024-10-27 18:10:47,562] 21 root - INFO - Avatar system initiated.
+[2024-10-27 18:10:47,814] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-27 18:10:51,293] 31 root - INFO - Text response generated.
+[2024-10-27 18:10:52,708] 26 root - INFO - Text response generated.
+[2024-10-27 18:10:52,859] 30 root - INFO - Sentiment of response generated.
+[2024-10-27 18:10:52,860] 30 root - INFO - Response sentiment received.
+[2024-10-27 18:10:57,516] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 18:10:57,516] 34 root - INFO - Generated response saved as audio mp3 format.
+[2024-10-27 18:10:57,521] 79 root - INFO - Generated response stored in response.txt file in artifacts folder.
+[2024-10-27 18:10:57,522] 85 root - INFO - Stored text loaded.
+[2024-10-27 18:11:02,970] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 18:11:02,970] 24 root - INFO - Generated audio file loaded
+[2024-10-27 18:11:15,484] 33 root - INFO - Created audio file removed for entry of new file.
+[2024-10-27 18:11:21,131] 31 root - INFO - Text response generated.
+[2024-10-27 18:11:22,229] 26 root - INFO - Text response generated.
+[2024-10-27 18:11:22,372] 30 root - INFO - Sentiment of response generated.
+[2024-10-27 18:11:22,373] 30 root - INFO - Response sentiment received.
+[2024-10-27 18:11:33,070] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 18:11:33,070] 34 root - INFO - Generated response saved as audio mp3 format.
+[2024-10-27 18:11:33,073] 79 root - INFO - Generated response stored in response.txt file in artifacts folder.
+[2024-10-27 18:11:33,074] 85 root - INFO - Stored text loaded.
+[2024-10-27 18:11:40,414] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 18:11:40,414] 24 root - INFO - Generated audio file loaded
+[2024-10-27 18:11:59,775] 33 root - INFO - Created audio file removed for entry of new file.
+[2024-10-27 18:12:30,538] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-27 18:12:48,956] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-27 18:13:16,493] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-27 18:13:21,965] 31 root - INFO - Text response generated.
+[2024-10-27 18:13:25,748] 26 root - INFO - Text response generated.
+[2024-10-27 18:13:26,125] 30 root - INFO - Sentiment of response generated.
+[2024-10-27 18:13:26,127] 30 root - INFO - Response sentiment received.
+[2024-10-27 18:13:55,830] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 18:13:55,830] 34 root - INFO - Generated response saved as audio mp3 format.
+[2024-10-27 18:13:55,832] 79 root - INFO - Generated response stored in response.txt file in artifacts folder.
+[2024-10-27 18:13:55,833] 85 root - INFO - Stored text loaded.
+[2024-10-27 18:14:21,760] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 18:14:21,761] 24 root - INFO - Generated audio file loaded
+[2024-10-27 18:15:39,512] 33 root - INFO - Created audio file removed for entry of new file.
+[2024-10-27 18:15:45,197] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 18:15:45,198] 24 root - INFO - Generated audio file loaded
+[2024-10-27 18:15:48,252] 33 root - INFO - Created audio file removed for entry of new file.

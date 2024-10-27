@@ -1,0 +1,13 @@
+[2024-10-27 16:07:04,196] 28 root - INFO - LLM model for text generation created.
+[2024-10-27 16:07:17,296] 21 root - INFO - Avatar system initiated.
+[2024-10-27 16:07:18,376] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-27 16:07:22,259] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 16:07:23,487] 24 root - INFO - Generated audio file loaded
+[2024-10-27 16:07:38,416] 33 root - INFO - Created audio file removed for entry of new file.
+[2024-10-27 16:08:02,900] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-27 16:08:06,283] 19 root - INFO - Response text convertion to audio done.
+[2024-10-27 16:08:06,285] 24 root - INFO - Generated audio file loaded
+[2024-10-27 16:08:21,176] 33 root - INFO - Created audio file removed for entry of new file.
+[2024-10-27 16:26:37,214] 28 root - INFO - LLM model for text generation created.
+[2024-10-27 16:27:07,545] 21 root - INFO - Avatar system initiated.
+[2024-10-27 16:27:16,114] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
