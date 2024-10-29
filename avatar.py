@@ -12,20 +12,18 @@ salutation = "Pleasure meeting you. Have a nice day!"
 st.title("Hi, Chatmate here!")
 st.markdown("<h3 style='text-align: center;'>Hello, I am your chatbot assistant.</h1>", unsafe_allow_html=True)
 
-mode = option_menu("Choose mode of interaction", ["Text", "Voice"], 
+mode = option_menu("Choose mode of interaction", ["RoboDoc", "Text", "Voice"], 
     icons=['chat-text', 'mic'], 
     menu_icon="cast", default_index=0, orientation="horizontal")
 
 if "HF_TOKEN" not in st.session_state:
     st.session_state.HF_TOKEN = ''
-# st.write("Add your Huggingface Access Token to use the chatbot.")
-# st.session_state.HF_TOKEN = st.text_input("Your Access Token: ")
-
-# if 'session' not in st.session_state:
-#     st.session_state.session = True
+st.write("Add your Huggingface Access Token to use the chatbot.")
+st.session_state.HF_TOKEN = st.text_input("Your Access Token: ")
 
 # Chatbot configuration initiation
-avatar = AvatarSystem(st.session_state.HF_TOKEN)
+if st.session_state.HF_TOKEN != '':
+    avatar = AvatarSystem(st.session_state.HF_TOKEN)
 
 def chat_history(input, response, sentiment):
     if 'history' not in st.session_state:
@@ -46,7 +44,7 @@ def response(input_text):
     
     return ans, response_sentiment
 
-if mode == "Text":    
+if mode == "Text" and st.session_state.HF_TOKEN != '':    
     if 'chathist' not in st.session_state:
         st.session_state.chathist = dict()
     
@@ -82,7 +80,7 @@ if mode == "Text":
             bot = bot_col1.container(border=True)
             bot.write(st.session_state.chathist[key][0])
                             
-elif mode == "Voice":
+elif mode == "Voice" and st.session_state.HF_TOKEN != '':
     # Voice to text conversion
     r = sr.Recognizer()
     while 1:
