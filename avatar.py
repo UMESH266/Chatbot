@@ -42,7 +42,7 @@ def response(input_text, docbot):
         
     return ans, response_sentiment
 
-if mode == "Doc-Bot":
+if mode == "Doc-Bot" and st.session_state.HF_TOKEN != '':
     st.write("Doc-Bot implementation")
     # with open("artifacts/logit_model.pkl", "rb") as file:
     #     logit_model = pickle.load(file)
