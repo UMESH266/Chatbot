@@ -1,0 +1,44 @@
+[2024-10-29 21:35:56,311] 28 root - INFO - LLM model for text generation created.
+[2024-10-29 21:35:56,313] 28 root - INFO - LLM model for medical text generation created.
+[2024-10-29 21:36:12,446] 23 root - INFO - Avatar system initiated.
+[2024-10-29 21:37:08,417] 28 root - INFO - LLM model for text generation created.
+[2024-10-29 21:37:08,420] 28 root - INFO - LLM model for medical text generation created.
+[2024-10-29 21:37:10,860] 23 root - INFO - Avatar system initiated.
+[2024-10-29 21:38:02,428] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-29 21:38:03,148] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-29 21:38:44,058] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-29 21:38:44,429] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-29 21:38:44,453] 31 root - INFO - Text response generated.
+[2024-10-29 21:38:46,712] 32 root - INFO - Text response generated.
+[2024-10-29 21:38:48,844] 30 root - INFO - Sentiment of response generated.
+[2024-10-29 21:38:48,861] 36 root - INFO - Response sentiment received.
+[2024-10-29 21:38:55,718] 19 root - INFO - Response text convertion to audio done.
+[2024-10-29 21:38:55,718] 40 root - INFO - Generated response saved as audio mp3 format.
+[2024-10-29 21:38:55,726] 79 root - INFO - Generated response stored in response.txt file in artifacts folder.
+[2024-10-29 21:38:55,726] 85 root - INFO - Stored text loaded.
+[2024-10-29 21:40:10,162] 28 root - INFO - LLM model for text generation created.
+[2024-10-29 21:40:10,165] 28 root - INFO - LLM model for medical text generation created.
+[2024-10-29 21:40:13,855] 23 root - INFO - Avatar system initiated.
+[2024-10-29 21:40:14,701] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-29 21:40:15,423] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-29 21:40:15,436] 31 root - INFO - Text response generated.
+[2024-10-29 21:40:26,082] 32 root - INFO - Text response generated.
+[2024-10-29 21:40:27,438] 30 root - INFO - Sentiment of response generated.
+[2024-10-29 21:40:27,438] 36 root - INFO - Response sentiment received.
+[2024-10-29 21:41:09,495] 19 root - INFO - Response text convertion to audio done.
+[2024-10-29 21:41:09,503] 40 root - INFO - Generated response saved as audio mp3 format.
+[2024-10-29 21:41:09,503] 79 root - INFO - Generated response stored in response.txt file in artifacts folder.
+[2024-10-29 21:41:09,506] 85 root - INFO - Stored text loaded.
+[2024-10-29 21:51:28,023] 28 root - INFO - LLM model for text generation created.
+[2024-10-29 21:51:28,028] 28 root - INFO - LLM model for medical text generation created.
+[2024-10-29 21:51:31,579] 23 root - INFO - Avatar system initiated.
+[2024-10-29 21:51:31,897] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-29 21:51:32,234] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-29 21:51:32,243] 31 root - INFO - Text response generated.
+[2024-10-29 21:51:34,208] 32 root - INFO - Text response generated.
+[2024-10-29 21:51:34,608] 30 root - INFO - Sentiment of response generated.
+[2024-10-29 21:51:34,612] 36 root - INFO - Response sentiment received.
+[2024-10-29 21:51:38,853] 19 root - INFO - Response text convertion to audio done.
+[2024-10-29 21:51:38,853] 40 root - INFO - Generated response saved as audio mp3 format.
+[2024-10-29 21:51:38,853] 79 root - INFO - Generated response stored in response.txt file in artifacts folder.
+[2024-10-29 21:51:38,853] 85 root - INFO - Stored text loaded.
