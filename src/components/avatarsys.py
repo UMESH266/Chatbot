@@ -1,6 +1,7 @@
 from src.exception.exception import customexception
 from src.logger.logger import logging
 from src.components.textprocess import TextProcessor
+from src.components.docchat import DocChatProcessor
 from src.components.emotionanalyz import EmotionAnalyzer
 from src.components.voicesynth import VoiceSynthesizer
 
@@ -17,13 +18,18 @@ class AvatarSystem:
         self.text_processor = TextProcessor(hf_token)
         self.emotion_analyzer = EmotionAnalyzer()
         self.voice_synthesiser = VoiceSynthesizer()
+        self.doc_chat_processor = DocChatProcessor(hf_token)
     
     logging.info("Avatar system initiated.")
 
-    def process_input(self, user_input):
+    def process_input(self, user_input, docbot):
         # Generate response
-        response = self.text_processor.generate_response(user_input)
-        logging.info("Text response generated.")
+        if docbot:
+            response = self.doc_chat_processor.generate_response(user_input)
+            logging.info("Docbot Text response generated.")
+        else:
+            response = self.text_processor.generate_response(user_input)
+            logging.info("Text response generated.")
 
         # Analyze emotion
         emotion = self.emotion_analyzer.analyze_emotion(response)

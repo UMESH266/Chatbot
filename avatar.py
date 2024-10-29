@@ -4,6 +4,7 @@ from streamlit_option_menu import option_menu
 from src.components.avatarsys import AvatarSystem
 from src.utils.accessory import play_speech, listen, save_output, load_output
 import speech_recognition as sr
+import pickle
 
 # Global 
 salutation = "Pleasure meeting you. Have a nice day!"
@@ -12,8 +13,8 @@ salutation = "Pleasure meeting you. Have a nice day!"
 st.title("Hi, Chatmate here!")
 st.markdown("<h3 style='text-align: center;'>Hello, I am your chatbot assistant.</h1>", unsafe_allow_html=True)
 
-mode = option_menu("Choose mode of interaction", ["RoboDoc", "Text", "Voice"], 
-    icons=['chat-text', 'mic'], 
+mode = option_menu("Choose mode of interaction", ["Doc-Bot", "Text", "Voice"], 
+    icons=['heart-pulse','chat-text', 'mic'], 
     menu_icon="cast", default_index=0, orientation="horizontal")
 
 if "HF_TOKEN" not in st.session_state:
@@ -31,20 +32,57 @@ def chat_history(input, response, sentiment):
     st.session_state.history[input] = [response, sentiment]
     return st.session_state.history
 
-def response(input_text):
+def response(input_text, docbot):
     # Getting response and sentiment of response 
-    output = avatar.process_input(input_text)
+    output = avatar.process_input(input_text, docbot)
     # Save output response in txt
     save_output(output)
     response_sentiment = output['emotion']
     ans = load_output()
-    # st.write(f"You: {input_text}")
-    # st.write(f"AI Avatar: {ans}\n")
-    # st.write(f"Response sentiment: {response_sentiment}")
-    
+        
     return ans, response_sentiment
 
-if mode == "Text" and st.session_state.HF_TOKEN != '':    
+if mode == "Doc-Bot":
+    st.write("Doc-Bot implementation")
+    # with open("artifacts/logit_model.pkl", "rb") as file:
+    #     logit_model = pickle.load(file)
+
+    if 'doc_chat_hist' not in st.session_state:
+        st.session_state.doc_chat_hist = dict()
+    
+    # Form requires unique key
+    with st.form(key=f'Chat form', clear_on_submit=True):
+        user_input = st.text_input("You: ", value="", placeholder="Ask anything or Type 'Exit'")
+        col1, col2, col3, col4, col5, col6 = st.columns(6)
+        save = col6.form_submit_button("Click here")
+        
+    if save and user_input != "":
+        user_input = user_input.lower() + '?'
+
+        # Exiting the chat
+        if 'exit' in user_input:
+            st.write(salutation)
+            play_speech(salutation)
+           
+        # Getting response and sentiment of response 
+        ans, senti = response(user_input, docbot=True)
+        # st.button("Audio", on_click=play_speech(ans))
+        
+        # Chat history 
+        st.session_state.doc_chat_hist = chat_history(user_input, ans, senti)
+    
+    # Chat history display
+    st.markdown("### Chat History: ")
+    with st.container(border=True):
+        for key in st.session_state.doc_chat_hist.keys():
+            user_col1, user_col2, user_col3 = st.columns(3, vertical_alignment="center")
+            user = user_col3.container(border=True)
+            user.write(key)
+            bot_col1, bot_col2, bot_col3 = st.columns([4, 1, 1], vertical_alignment='center')
+            bot = bot_col1.container(border=True)
+            bot.write(st.session_state.doc_chat_hist[key][0])
+
+elif mode == "Text" and st.session_state.HF_TOKEN != '':    
     if 'chathist' not in st.session_state:
         st.session_state.chathist = dict()
     
@@ -63,7 +101,7 @@ if mode == "Text" and st.session_state.HF_TOKEN != '':
             play_speech(salutation)
            
         # Getting response and sentiment of response 
-        ans, senti = response(user_input)
+        ans, senti = response(user_input, docbot=False)
         # st.button("Audio", on_click=play_speech(ans))
         
         # Chat history 

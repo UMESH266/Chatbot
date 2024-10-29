@@ -1,0 +1,54 @@
+[2024-10-29 19:35:24,577] 28 root - INFO - LLM model for text generation created.
+[2024-10-29 19:35:34,032] 21 root - INFO - Avatar system initiated.
+[2024-10-29 20:20:31,489] 28 root - INFO - LLM model for text generation created.
+[2024-10-29 20:20:31,499] 27 root - INFO - LLM model for medical text generation created.
+[2024-10-29 20:20:35,379] 23 root - INFO - Avatar system initiated.
+[2024-10-29 20:22:50,591] 28 root - INFO - LLM model for text generation created.
+[2024-10-29 20:22:50,592] 27 root - INFO - LLM model for medical text generation created.
+[2024-10-29 20:22:53,179] 23 root - INFO - Avatar system initiated.
+[2024-10-29 20:24:23,130] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-29 20:25:48,027] 28 root - INFO - LLM model for text generation created.
+[2024-10-29 20:25:48,030] 27 root - INFO - LLM model for medical text generation created.
+[2024-10-29 20:25:50,533] 23 root - INFO - Avatar system initiated.
+[2024-10-29 20:25:50,778] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-29 20:25:51,064] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-29 20:26:01,186] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-29 20:26:01,599] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-29 20:26:01,616] 30 root - INFO - Text response generated.
+[2024-10-29 20:30:20,701] 28 root - INFO - LLM model for text generation created.
+[2024-10-29 20:30:20,708] 28 root - INFO - LLM model for medical text generation created.
+[2024-10-29 20:30:24,631] 23 root - INFO - Avatar system initiated.
+[2024-10-29 20:30:24,874] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-29 20:30:25,220] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-29 20:30:50,153] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-29 20:30:50,468] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-29 20:30:50,499] 31 root - INFO - Text response generated.
+[2024-10-29 20:37:01,077] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-29 20:37:01,489] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-29 20:37:01,502] 31 root - INFO - Text response generated.
+[2024-10-29 20:37:01,518] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-29 20:37:01,898] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-29 20:50:35,743] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-29 20:50:38,430] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-29 20:50:38,456] 31 root - INFO - Text response generated.
+[2024-10-29 20:53:10,924] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-29 20:53:12,083] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-29 20:53:44,835] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-29 20:53:45,520] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-29 20:54:49,338] 28 root - INFO - LLM model for text generation created.
+[2024-10-29 20:54:49,341] 28 root - INFO - LLM model for medical text generation created.
+[2024-10-29 20:54:53,388] 23 root - INFO - Avatar system initiated.
+[2024-10-29 20:54:53,736] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-29 20:54:54,161] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-29 20:55:15,113] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-29 20:55:15,763] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-29 20:55:15,782] 31 root - INFO - Text response generated.
+[2024-10-29 20:55:23,696] 32 root - INFO - Text response generated.
+[2024-10-29 20:55:26,213] 30 root - INFO - Sentiment of response generated.
+[2024-10-29 20:55:26,222] 36 root - INFO - Response sentiment received.
+[2024-10-29 20:55:38,494] 19 root - INFO - Response text convertion to audio done.
+[2024-10-29 20:55:38,494] 40 root - INFO - Generated response saved as audio mp3 format.
+[2024-10-29 20:55:38,498] 79 root - INFO - Generated response stored in response.txt file in artifacts folder.
+[2024-10-29 20:55:38,498] 85 root - INFO - Stored text loaded.
+[2024-10-29 20:56:10,663] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+[2024-10-29 20:56:13,507] 413 huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.

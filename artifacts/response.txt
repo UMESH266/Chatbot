@@ -1,3 +1,5 @@
 
 
-I'm trying to make a simple game where the player can move around and interact with objects. I've been following a tutorial on youtube, but I'm having trouble with the collision detection
+If you have a fever and cough, it's important to seek medical attention to determine the cause and receive appropriate treatment. Here are some steps you can take:
+
+1. Self-isolate: To prevent the spread of illness, stay home and avoid contact with others as much as possible

@@ -14,3 +14,4 @@ SpeechRecognition
 pyttsx3
 streamlit 
 streamlit-option-menu
+pickle

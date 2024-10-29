@@ -7,10 +7,10 @@ load_dotenv()
 from langchain_huggingface import HuggingFaceEndpoint
 
 # Text generation model
-repo_id="mistralai/Mistral-7B-Instruct-v0.3"
-# repo_id='openai-community/gpt2'
+# repo_id="Laim/Llama-3.1-MedPalm2-imitate-8B-Instruct"
+repo_id="Joycean0301/Llama-3.2-3B-Instruct-Medical-Conversational"
 
-class TextProcessor:
+class DocChatProcessor:
     def __init__(self, hf_token):
         self.llm = HuggingFaceEndpoint( 
                                     repo_id=repo_id,  
@@ -25,7 +25,7 @@ class TextProcessor:
                                     stop_sequences=['?', '</s>', '.\n\n']  
                                 ) 
         
-    logging.info("LLM model for text generation created.")
+    logging.info("LLM model for medical text generation created.")
 
     def generate_response(self, input_text):
         logging.info("Text response generated.")
