@@ -1,5 +1,3 @@
 
 
-If you have a fever and cough, it's important to seek medical attention to determine the cause and receive appropriate treatment. Here are some steps you can take:
-
-1. Self-isolate: To prevent the spread of illness, stay home and avoid contact with others as much as possible
+Data Science is the interdisciplinary field that extracts insights and knowledge from structured and unstructured data using statistical, machine learning, and programming techniques. It involves data collection, cleaning, analysis, visualization, and interpretation to make informed decisions and predictions.

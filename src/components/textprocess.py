@@ -1,9 +1,7 @@
 # Text generation
 from src.logger.logger import logging
 from src.exception.exception import customexception
-import os
-from dotenv import load_dotenv
-load_dotenv()
+import sys
 from langchain_huggingface import HuggingFaceEndpoint
 
 # Text generation model
@@ -21,12 +19,15 @@ class TextProcessor:
                                     temperature=0.01,  
                                     repetition_penalty=1.03,  
                                     streaming=False,  
-                                    huggingfacehub_api_token= hf_token,
-                                    stop_sequences=['?', '</s>', '.\n\n']  
+                                    # huggingfacehub_api_token= hf_token,
+                                    # stop_sequences=['?', '</s>', '.\n\n']  
                                 ) 
         
     logging.info("LLM model for text generation created.")
 
     def generate_response(self, input_text):
-        logging.info("Text response generated.")
-        return self.llm.invoke(input_text)
+        try:
+            logging.info("Text response generated.")
+            return self.llm.invoke(input_text)
+        except Exception as e:
+            raise customexception(e,sys)

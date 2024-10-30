@@ -1,0 +1,69 @@
+[2024-10-30 09:04:17,138] 28 root - INFO - LLM model for text generation created.
+[2024-10-30 09:04:17,143] 29 root - INFO - LLM model for medical text generation created.
+[2024-10-30 09:04:41,086] 23 root - INFO - Avatar system initiated.
+[2024-10-30 09:05:52,355] 32 root - INFO - Text response generated.
+[2024-10-30 09:08:21,255] 31 root - INFO - Text response generated.
+[2024-10-30 09:08:24,885] 32 root - INFO - Text response generated.
+[2024-10-30 09:08:26,885] 30 root - INFO - Sentiment of response generated.
+[2024-10-30 09:08:26,895] 36 root - INFO - Response sentiment received.
+[2024-10-30 09:08:51,950] 19 root - INFO - Response text convertion to audio done.
+[2024-10-30 09:08:51,951] 40 root - INFO - Generated response saved as audio mp3 format.
+[2024-10-30 09:08:51,965] 67 root - INFO - Generated response stored in response.txt file in artifacts folder.
+[2024-10-30 09:08:51,967] 73 root - INFO - Stored text loaded.
+[2024-10-30 09:09:16,677] 31 root - INFO - Text response generated.
+[2024-10-30 09:09:20,003] 32 root - INFO - Text response generated.
+[2024-10-30 09:09:20,246] 30 root - INFO - Sentiment of response generated.
+[2024-10-30 09:09:20,247] 36 root - INFO - Response sentiment received.
+[2024-10-30 09:09:35,241] 19 root - INFO - Response text convertion to audio done.
+[2024-10-30 09:09:35,241] 40 root - INFO - Generated response saved as audio mp3 format.
+[2024-10-30 09:09:35,242] 67 root - INFO - Generated response stored in response.txt file in artifacts folder.
+[2024-10-30 09:09:35,242] 73 root - INFO - Stored text loaded.
+[2024-10-30 09:13:32,259] 28 root - INFO - LLM model for text generation created.
+[2024-10-30 09:13:32,259] 29 root - INFO - LLM model for medical text generation created.
+[2024-10-30 09:13:38,739] 23 root - INFO - Avatar system initiated.
+[2024-10-30 09:13:45,626] 31 root - INFO - Text response generated.
+[2024-10-30 09:13:47,083] 32 root - INFO - Text response generated.
+[2024-10-30 09:13:47,188] 30 root - INFO - Sentiment of response generated.
+[2024-10-30 09:13:47,188] 36 root - INFO - Response sentiment received.
+[2024-10-30 09:13:49,150] 19 root - INFO - Response text convertion to audio done.
+[2024-10-30 09:13:49,150] 40 root - INFO - Generated response saved as audio mp3 format.
+[2024-10-30 09:13:49,151] 67 root - INFO - Generated response stored in response.txt file in artifacts folder.
+[2024-10-30 09:13:49,151] 73 root - INFO - Stored text loaded.
+[2024-10-30 09:13:54,215] 31 root - INFO - Text response generated.
+[2024-10-30 09:13:54,699] 32 root - INFO - Text response generated.
+[2024-10-30 09:13:54,763] 30 root - INFO - Sentiment of response generated.
+[2024-10-30 09:13:54,764] 36 root - INFO - Response sentiment received.
+[2024-10-30 09:13:55,486] 19 root - INFO - Response text convertion to audio done.
+[2024-10-30 09:13:55,487] 40 root - INFO - Generated response saved as audio mp3 format.
+[2024-10-30 09:13:55,489] 67 root - INFO - Generated response stored in response.txt file in artifacts folder.
+[2024-10-30 09:13:55,490] 73 root - INFO - Stored text loaded.
+[2024-10-30 09:13:59,119] 31 root - INFO - Text response generated.
+[2024-10-30 09:14:00,387] 32 root - INFO - Text response generated.
+[2024-10-30 09:14:00,497] 30 root - INFO - Sentiment of response generated.
+[2024-10-30 09:14:00,498] 36 root - INFO - Response sentiment received.
+[2024-10-30 09:14:15,776] 19 root - INFO - Response text convertion to audio done.
+[2024-10-30 09:14:15,777] 40 root - INFO - Generated response saved as audio mp3 format.
+[2024-10-30 09:14:15,778] 67 root - INFO - Generated response stored in response.txt file in artifacts folder.
+[2024-10-30 09:14:15,780] 73 root - INFO - Stored text loaded.
+[2024-10-30 09:14:24,905] 19 root - INFO - Response text convertion to audio done.
+[2024-10-30 09:14:25,047] 23 root - INFO - Generated audio file loaded
+[2024-10-30 09:14:28,104] 32 root - INFO - Created audio file removed for entry of new file.
+[2024-10-30 09:14:56,300] 31 root - INFO - Text response generated.
+[2024-10-30 09:14:58,766] 32 root - INFO - Text response generated.
+[2024-10-30 09:14:58,909] 30 root - INFO - Sentiment of response generated.
+[2024-10-30 09:14:58,910] 36 root - INFO - Response sentiment received.
+[2024-10-30 09:15:09,780] 19 root - INFO - Response text convertion to audio done.
+[2024-10-30 09:15:09,781] 40 root - INFO - Generated response saved as audio mp3 format.
+[2024-10-30 09:15:09,784] 67 root - INFO - Generated response stored in response.txt file in artifacts folder.
+[2024-10-30 09:15:09,787] 73 root - INFO - Stored text loaded.
+[2024-10-30 09:17:19,442] 31 root - INFO - Text response generated.
+[2024-10-30 09:17:22,248] 32 root - INFO - Text response generated.
+[2024-10-30 09:17:22,369] 30 root - INFO - Sentiment of response generated.
+[2024-10-30 09:17:22,370] 36 root - INFO - Response sentiment received.
+[2024-10-30 09:17:32,116] 19 root - INFO - Response text convertion to audio done.
+[2024-10-30 09:17:32,116] 40 root - INFO - Generated response saved as audio mp3 format.
+[2024-10-30 09:17:32,119] 67 root - INFO - Generated response stored in response.txt file in artifacts folder.
+[2024-10-30 09:17:32,120] 73 root - INFO - Stored text loaded.
+[2024-10-30 09:17:37,431] 19 root - INFO - Response text convertion to audio done.
+[2024-10-30 09:17:37,432] 23 root - INFO - Generated audio file loaded
+[2024-10-30 09:17:40,482] 32 root - INFO - Created audio file removed for entry of new file.

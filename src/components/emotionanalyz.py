@@ -4,6 +4,7 @@ from src.logger.logger import logging
 from transformers import AutoTokenizer
 from transformers import AutoModelForSequenceClassification
 from scipy.special import softmax
+import sys
 
 # Pretrained model
 MODEL = f"cardiffnlp/twitter-roberta-base-sentiment"
@@ -17,16 +18,19 @@ class EmotionAnalyzer:
     
     #  Roberta model
     def analyze_emotion(self, text):
-        encoded_text = tokenizer(text, return_tensors='pt')
-        output = self.emotion_classifier(**encoded_text)
-        scores = output[0][0].detach().numpy()
-        scores = softmax(scores)
-        scores_dict = {
-            'negative': scores[0],
-            'neutral': scores[1],
-            'positive': scores[2],
-        }
-        self.emotion = max(scores_dict)
-        logging.info("Sentiment of response generated.")
+        try:
+            encoded_text = tokenizer(text, return_tensors='pt')
+            output = self.emotion_classifier(**encoded_text)
+            scores = output[0][0].detach().numpy()
+            scores = softmax(scores)
+            scores_dict = {
+                'negative': scores[0],
+                'neutral': scores[1],
+                'positive': scores[2],
+            }
+            self.emotion = max(scores_dict)
+            logging.info("Sentiment of response generated.")
 
-        return self.emotion
+            return self.emotion
+        except Exception as e:
+            raise customexception(e,sys)

@@ -1,14 +1,14 @@
 # Text generation
 from src.logger.logger import logging
 from src.exception.exception import customexception
-import os
-from dotenv import load_dotenv
-load_dotenv()
+import sys
 from langchain_huggingface import HuggingFaceEndpoint
 
 # Text generation model
 # repo_id="Laim/Llama-3.1-MedPalm2-imitate-8B-Instruct"
-repo_id="Joycean0301/Llama-3.2-3B-Instruct-Medical-Conversational"
+# repo_id="Joycean0301/Llama-3.2-3B-Instruct-Medical-Conversational"
+# repo_id = "TheBloke/medalpaca-13B-GGML"
+repo_id="mistralai/Mistral-7B-Instruct-v0.3"
 
 class DocChatProcessor:
     def __init__(self, hf_token):
@@ -28,5 +28,8 @@ class DocChatProcessor:
     logging.info("LLM model for medical text generation created.")
 
     def generate_response(self, input_text):
-        logging.info("Text response generated.")
-        return self.llm.invoke(input_text)
+        try:
+            logging.info("Text response generated.")
+            return self.llm.invoke(input_text)
+        except Exception as e:
+            raise customexception(e,sys)
