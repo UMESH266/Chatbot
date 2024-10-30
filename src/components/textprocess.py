@@ -19,7 +19,7 @@ class TextProcessor:
                                     temperature=0.01,  
                                     repetition_penalty=1.03,  
                                     streaming=False,  
-                                    # huggingfacehub_api_token= hf_token,
+                                    huggingfacehub_api_token= hf_token,
                                     # stop_sequences=['?', '</s>', '.\n\n']  
                                 ) 
         
