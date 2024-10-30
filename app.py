@@ -21,11 +21,11 @@ mode = option_menu("Choose mode of interaction", ["Text", "Voice"],
 
 if "HF_TOKEN" not in st.session_state:
     st.session_state.HF_TOKEN = ''
-# st.write("Add your Huggingface Access Token to use the chatbot.")
-# st.session_state.HF_TOKEN = st.text_input("Your Access Token: ")
+st.write("Add your Huggingface Access Token to use the chatbot.")
+st.session_state.HF_TOKEN = st.text_input("Your Access Token: ")
 
 # Chatbot configuration initiation
-if st.session_state.HF_TOKEN == '':
+if st.session_state.HF_TOKEN != '':
     avatar = AvatarSystem(st.session_state.HF_TOKEN)
 
 def chat_history(input, response, sentiment):
@@ -66,7 +66,7 @@ def record_voice():
         raise customexception("Unknown error occurred.", sys)
                 
 
-if mode == "Text" and st.session_state.HF_TOKEN == '':    
+if mode == "Text" and st.session_state.HF_TOKEN != '':    
     if 'chathist' not in st.session_state:
         st.session_state.chathist = dict()
 
@@ -97,7 +97,7 @@ if mode == "Text" and st.session_state.HF_TOKEN == '':
                 bot = bot_col1.container(border=True)
                 bot.write(f"Bot: {ans}")
                             
-elif mode == "Voice" and st.session_state.HF_TOKEN == '':
+elif mode == "Voice" and st.session_state.HF_TOKEN != '':
     if 'chathist' not in st.session_state:
         st.session_state.chathist = dict()
     
